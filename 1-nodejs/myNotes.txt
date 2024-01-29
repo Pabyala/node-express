@@ -1,0 +1,9 @@
+npm i nodemon -D
+ "scripts": {
+    "start": "node app.js",  //to run the code use "npm start"
+    "dev": "nodemon app.js" // to run the code use "npm run dev" and it will auto save
+
+    "start": "nodemon app.js" // use this and delete the "dev"; use "npm start"
+}
+
+// to uninstall the package type "npm uninstall bootstrap";
